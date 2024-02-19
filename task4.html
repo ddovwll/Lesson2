@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+            <p>Имя</p>
+            <input type="text" name="name" placeholder="Имя" tabindex="1">
+        </div>
+        <div>
+            <p>Пароль</p>
+            <input type="password" name="password" tabindex="2">
+        </div>
+        <div>
+            <p>Телефон</p>
+            <input type="tel" name="pnoneNumber" tabindex="3">
+        </div>
+        <div>
+            <p>Пол</p>
+            <div>
+                <input type="radio" name="sex" value="woman" tabindex="4"> Женский
+            </div>
+            <div>
+                <input type="radio" name="sex" value="man" tabindex="4"> Мужской
+            </div>
+        </div>
+        <div>
+            <p>Имущество</p>
+            <div>
+                <input type="checkbox" name="car" value="true" tabindex="5"> Велик
+            </div>
+            <div>
+                <input type="checkbox" name="cycle" value="true" tabindex="6"> Велик
+            </div>
+            <div>
+                <input type="checkbox" name="house" value="true" tabindex="7"> Дом
+            </div>
+        </div>
+        <div>
+            <p>Дополнительная информация</p>
+            <div>
+                <textarea name="extras" cols="30" rows="5" tabindex="8"></textarea>
+            </div>
+        </div>
+        <div>
+            <p>Прикрепить фото</p>
+            <input type="file" name="photo" tabindex="9">
+        </div>
+        <div>
+            <p>Любимый цвет</p>
+            <select name="favColor" tabindex="9">
+                <option value="red">красный</option>
+                <option value="blue">синий</option>
+                <option value="yellow">желтый</option>
+                <option value="white">белый</option>
+            </select>
+        </div>
+        <div>
+            <p>Дейсвтия</p>
+            <button type="submit" tabindex="10">Отправить</button>
+            <button type="reset" tabindex="11">Очистить</button>
+        </div>
+    </form>
+</body>
+</html>
